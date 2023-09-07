@@ -1,5 +1,5 @@
 # lesson-02
-> Pseudo-classes、transition、opacity
+> Pseudo-classes、transition、opacity、box-shadow
 
 ## Pseudo-classes
 在 CSS 中，伪类（Pseudo-classes）是用于选择元素的特定状态或位置的关键词。它们以冒号（:）开头，用于对元素的特定状态进行样式化。以下是一些常用的 CSS 伪类：
@@ -70,3 +70,41 @@ transition: property duration timing-function delay;
 在上述示例中，`.element` 元素的背景颜色被设置为半透明的红色，透明度为 0.5。这样，只有元素的背景会受到透明度的影响，而文本和其他子元素将保持不变。
 
 通过使用 `opacity` 属性，你可以控制元素的透明度，从而实现不同的视觉效果和叠加效果。
+
+## box-shadow
+在 CSS 中，`box-shadow` 属性用于向元素添加阴影效果。通过设置 `box-shadow`，可以为元素创建立体感和深度感，使其在页面上突出显示。`box-shadow` 属性可以应用于任何具有可见性的元素。
+
+`box-shadow` 属性的语法如下：
+
+```css
+box-shadow: h-offset v-offset blur spread color inset;
+```
+
+- `h-offset`：指定阴影水平偏移量，可以为正值（向右偏移）或负值（向左偏移）。
+- `v-offset`：指定阴影垂直偏移量，可以为正值（向下偏移）或负值（向上偏移）。
+- `blur`：可选参数，指定阴影的模糊半径，值越大越模糊。
+- `spread`：可选参数，指定阴影的扩展半径，负值会使阴影缩小。
+- `color`：指定阴影的颜色。
+
+以下是一个示例，将为一个具有 4px 水平偏移、2px 垂直偏移、模糊半径为 6px 的阴影，并设置颜色为 rgba(0, 0, 0, 0.3)：
+
+```css
+.element {
+  box-shadow: 4px 2px 6px rgba(0, 0, 0, 0.3);
+}
+```
+
+在上述示例中，`.element` 元素将显示一个具有指定阴影效果的阴影。
+
+`box-shadow` 属性还支持在多个阴影之间使用逗号分隔，以创建元素上叠加的多层阴影效果。每个阴影的参数顺序和语法与单个阴影相同。
+
+```css
+.element {
+  box-shadow: 4px 2px 6px rgba(0, 0, 0, 0.3),
+              -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+```
+
+在上述示例中，`.element` 元素将显示两个叠加的阴影效果。
+
+通过使用 `box-shadow` 属性，可以为元素添加阴影效果，从而增加页面的可视深度和立体感。根据需要调整参数，可以实现不同的阴影效果和样式。
