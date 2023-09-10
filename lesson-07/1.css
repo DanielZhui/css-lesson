@@ -1,7 +1,8 @@
 .tweet-container{
-    box-shadow: 2px 2px 2px 2px #ccc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
     width: 450px;
     border-radius: 5px;
+    padding: 12px;
 }
 
 .img {
@@ -11,13 +12,13 @@
     object-position: middle;
     vertical-align: middle;
     border-radius: 25px;
-    margin: 10px 10px;
 }
 
 .txt {
     border: none;
     font-size: 20px;
     margin-right: 50px;
+    vertical-align: middle;
 }
 
 .tweet-button {
@@ -28,12 +29,12 @@
     font-weight: bold;
     border: none;
     padding: 8px 10px;
-    margin: 5px 8px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 .add-container {
-    box-shadow: 2px 2px 2px 2px #ccc;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
     width: 200px;
     margin-right: 20px;
     display: inline-block;
