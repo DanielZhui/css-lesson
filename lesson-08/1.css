@@ -1,0 +1,41 @@
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+}
+
+.description {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.sub-title {
+    width: 60px;
+    color: #ccc;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.follow-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    vertical-align: center;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
