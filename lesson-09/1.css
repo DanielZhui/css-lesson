@@ -1,0 +1,39 @@
+.grid-1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.px-200 {
+    background-color: #ccc;
+}
+
+.px-75 {
+    background-color: pink;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.clo-1 {
+    background-color: #ccc;
+}
+
+.clo-2 {
+    background-color: pink;
+}
+
+.clo-3 {
+    background-color: #ccc;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.clo {
+    background-color: pink;
+}
