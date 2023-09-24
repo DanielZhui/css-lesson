@@ -1,0 +1,54 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.grep {
+    background-color: grey;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.w-75{
+    width: 75px;
+}
+
+.item1 {
+    width: 50px;
+}
+
+.item2 {
+    width: 100%;
+}
+
+.tem3 {
+    width: 75px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.c4-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
