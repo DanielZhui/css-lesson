@@ -1,0 +1,27 @@
+body {
+    height: 3000px;
+}
+
+.close-btn {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    top: 0px;
+    right: 0px;
+}
+
+.gray {
+    margin-top: 60px;
+    position: fixed;
+    background-color: gray;
+    width: 320px;
+    height: 180px;
+    top: 0px;
+    right: 0px;
+}
